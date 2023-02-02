@@ -8,32 +8,32 @@ body {
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
-    font-size: 48px;
+    font-size: 30px;
     color: #8f8d8d;
     padding: 10px;
     text-align: center;
 }
 .container {
    background-color: #2F3030;
-   width: 750px;
-   max-width: 750px;
+   width: 450px;
+   max-width: 450px;
    margin: auto;
-   padding: 65px;
+   padding: 50px;
    border: 1px solid #695705;
    border-radius: 20px;
 }
 
 .top {
-    width: 100%;
+    width: 400px;
     display: flex;
     justify-content: space-between;
 }
 
 #newTask {
     font-weight: bold;
-    font-size: 18px;
-    width: 600px;
-    padding: 15px;
+    font-size: 15px;
+    width: 300px;
+    padding: 8px;
     background-color: #8f8d8d;
     border-radius: 10px;
     border: 1px solid white;
@@ -46,7 +46,7 @@ h1 {
 }
 
 #btnAddTask {
-    width: 60px;
+    width: 35px;
     border-radius: 10px;
     border: 1px solid #a7a0a0;
     background-color: #a7a0a0;
@@ -64,7 +64,7 @@ h1 {
 }
 
 #list {
-    width: 100%;
+    width: 400px;
     list-style: none;
     padding: 0;
     margin-top: 20px;
@@ -74,8 +74,8 @@ li {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    width: 725px;
-    padding: 10px;
+    width: 390px;
+    padding: 5px;
     background-color: #a7a0a0;
     border: 2px solid #695705;
     border-radius: 10px;
@@ -87,19 +87,19 @@ li:hover {
 }
 
 .btnDel {
-    width: 50px;
-    height: 40px;
-    border-radius: 40px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
     background-color: #2F3030;
     color: #a7a0a0;
     border: 1px solid #2F3030;
-    font-size: 15px;
+    font-size: 14px;
     outline: none;
 }
 
 .btnDel:hover {
     border: 1px solid white;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .done {
